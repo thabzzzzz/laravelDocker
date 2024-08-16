@@ -13,7 +13,9 @@ const navigateToQuiz = ()=>{
 
 <template>
     <div class="card" @click="navigateToQuiz()" >
+      <div class="image-container">
         <img :src="quiz.img" alt="">
+      </div>
         <div class="card-text">
             <h2>{{quiz.name}}</h2>
             <p>{{quiz.questions.length}} Questions</p>
@@ -45,4 +47,12 @@ const navigateToQuiz = ()=>{
   .card .card-text h2 {
     font-weight: bold;
   }
+
+  .image-container img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.2);
+        }
 </style>
