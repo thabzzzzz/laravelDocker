@@ -48,11 +48,17 @@ const navigateToQuiz = ()=>{
     font-weight: bold;
   }
 
-  .image-container img {
-            transition: transform 0.3s ease-in-out;
-        }
+  .image-container {
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+}
 
-        .image-container img:hover {
-            transform: scale(1.2);
-        }
+.image-container img {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center; /* Sets the origin of the scale effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.2); /* Scales the image up */
+}
+
 </style>
