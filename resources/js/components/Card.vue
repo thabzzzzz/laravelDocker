@@ -49,16 +49,16 @@ const navigateToQuiz = ()=>{
   }
 
   .image-container {
-    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    overflow: hidden; 
 }
 
 .image-container img {
     transition: transform 0.3s ease-in-out;
-    transform-origin: center center; /* Sets the origin of the scale effect */
+    transform-origin: center center; 
 }
 
 .image-container img:hover {
-    transform: scale(1.2); /* Scales the image up */
+    transform: scale(1.2); 
 }
 
 </style>
