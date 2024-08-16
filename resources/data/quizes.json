@@ -93,6 +93,96 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "Solve for x: 3x + 7 = 22",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "x = 3",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "x = 5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "x = 7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "x = 9",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is the value of sin(30°)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "0.5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "√3/2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "0",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "A data set has the values: 4, 8, 6, 5, 9. What is the mean of the data set?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "6.4",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "7.2",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "8",
+                        "isCorrect": false
+                    }
+                ]
             }
         ]
     },
@@ -291,7 +381,7 @@
         ]
     },{
         "id": 4,
-        "img": "https://www.besthomeschoolresources.com/world-history-essentials",
+        "img": "https://images.squarespace-cdn.com/content/v1/5c28dc69f93fd4ce490885c0/1584213208782-CPSS6JN50MB1FPEJ581A/image-asset.jpeg?format=1500w",
         "name": "History",
         "questions": [
             {
