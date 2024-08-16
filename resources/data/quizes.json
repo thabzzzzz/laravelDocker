@@ -289,5 +289,102 @@
                 ]
             }
         ]
+    },{
+        "id": 4,
+        "img": "https://www.besthomeschoolresources.com/world-history-essentials",
+        "name": "History",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Who was the first President of the United States?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Abraham Lincoln",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "George Washington",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Thomas Jefferson",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "John Adams",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "In which year did World War II end?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1945",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1939",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "1941",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "1950",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which ancient civilization built the pyramids?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Maya",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Inca",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Egyptian",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Aztec",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
     }
+    
 ]
