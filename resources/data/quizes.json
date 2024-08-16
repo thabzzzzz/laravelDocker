@@ -280,6 +280,96 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "What is the primary function of ribosomes in a cell?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "DNA replication",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Protein synthesis",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Lipid production",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Energy production",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Which of the following is a characteristic of prokaryotic cells?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "They have a nucleus.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "They have membrane-bound organelles.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "They have a cell wall",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "They are generally multicellular.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Which enzyme is responsible for breaking down lactose in the human body?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Amylase",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Lactase",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Protease",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Lipase",
+                        "isCorrect": false
+                    }
+                ]
             }
         ]
     },
