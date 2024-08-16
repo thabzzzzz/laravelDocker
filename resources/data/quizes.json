@@ -374,101 +374,191 @@
         ]
     },
     {
-        "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-        "name": "Chemistry",
-        "questions": [
-            {
-                "id": 1,
-                "text": "What is the composition of table salt",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "NaCl",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "K2",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "NaCl2C4H7",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "CH4",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "What is Potassium's chemical symbol",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "P",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Pt",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Pts",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "K",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "Which is not organinc",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "CH4",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "NaCl",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "C2H6",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "C3H8",
-                        "isCorrect": false
-                    }
-                ]
-            }
-        ]
+       "id": 3,
+    "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+    "name": "Chemistry",
+    "questions": [
+        {
+            "id": 1,
+            "text": "What is the composition of table salt",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "NaCl",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "K2",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "NaCl2C4H7",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "CH4",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "What is Potassium's chemical symbol",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "P",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "Pt",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "Pts",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "K",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Which is not organic",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "CH4",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "NaCl",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "C2H6",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "C3H8",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "What is the pH range of neutral water at 25°C?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "0-6",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "6-8",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "7",
+                    "isCorrect": true
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "8-14",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "What type of bond is formed when two atoms share electrons equally?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "Ionic bond",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "Polar covalent bond",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "Nonpolar covalent bond",
+                    "isCorrect": true
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "Hydrogen bond",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Which element is commonly used in the anode of a dry cell battery?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "Zinc",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "Copper",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "Lead",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "Aluminum",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
     },{
         "id": 4,
         "img": "https://images.squarespace-cdn.com/content/v1/5c28dc69f93fd4ce490885c0/1584213208782-CPSS6JN50MB1FPEJ581A/image-asset.jpeg?format=1500w",
@@ -563,8 +653,99 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "Who was the British Prime Minister during World War II?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Winston Churchill",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Neville Chamberlain",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Clement Attlee",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Anthony Eden",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Which document declared the independence of the American colonies from Britain?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "The Magna Carta",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "The Federalist Papers",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "The Declaration of Independence",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "The Articles of Confederation",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "What was the primary cause of the fall of the Berlin Wall in 1989?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "A major earthquake",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "A peace treaty",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "The collapse of the Soviet Union",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "A military invasion",
+                        "isCorrect": false
+                    }
+                ]
             }
         ]
     }
+    
     
 ]
