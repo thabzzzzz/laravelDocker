@@ -24,4 +24,6 @@ const props = defineProps(['numOfCorrectQuestions','quizQuestionLength']);
 p{
     font-size: 25px;
 }
+
+
 </style>

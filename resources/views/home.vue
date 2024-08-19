@@ -62,7 +62,7 @@ onMounted(() => {
 <template>
       <div class="container">
     <header>
-      <h1>Quizes</h1>
+      <h1>Quizy</h1>
       <input v-model.trim="search" type="text" placeholder="Search..." name="searchbox">
       <button @click="toggleTheme" id="modeToggle">Toggle Theme</button> 
     </header>

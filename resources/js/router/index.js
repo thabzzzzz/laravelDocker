@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from '../../views/home.vue';
 import quizPage from '../../views/quizePage.vue'
 import NotFoundPage from "../components/NotFoundPage.vue";
+import highScores from "../../views/highScores.vue";
 
 const routes=[
     {
@@ -15,6 +16,10 @@ const routes=[
         name:'quizes',
     
         component:quizPage
+        },
+        {
+            path:'/highscores',
+            component:highScores
         },
         {
         path: '/:pathMatch(.*)*',

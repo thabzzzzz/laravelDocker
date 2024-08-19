@@ -67,7 +67,6 @@ const onOptionSelected = (isCorrect) => {
 
 <style scoped>
 #backButton {
-    /* Space between the completion bar and the button */
     background-color: rgb(250, 192, 121);
     border: none;
     color: white;
@@ -76,7 +75,7 @@ const onOptionSelected = (isCorrect) => {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    flex-shrink: 0; /* Prevent the button from shrinking */
+    flex-shrink: 0; 
 }
 
 </style>
