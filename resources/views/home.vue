@@ -1,6 +1,6 @@
 <script setup>
 import q from '../data/quizes.json';
-import { ref, watch } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 import Card from '../js/components/Card.vue';
 import { RouterView } from 'vue-router';
 import quizePage from '../views/quizePage.vue';
@@ -37,13 +37,26 @@ const toggleTheme = () => {
 
   if (currentTheme === 'dark') {
     document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');  // Save theme to localStorage
     console.log('Switched to light theme');  // Log switch to light
   } else {
     document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');  // Save theme to localStorage
     console.log('Switched to dark theme');  // Log switch to dark
   }
-
 };
+
+onMounted(() => {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    console.log(`Loaded saved theme: ${savedTheme}`);
+  } else {
+    // Optional: Set a default theme if no theme is saved
+    document.documentElement.setAttribute('data-theme', 'light');
+    console.log('No saved theme found, defaulting to light theme');
+  }
+});
 </script>
 
 <template>

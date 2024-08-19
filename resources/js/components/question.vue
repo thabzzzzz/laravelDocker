@@ -46,7 +46,7 @@ const emitSelectedOption=(isCorrect)=>{
     cursor: pointer;
 }
 .option-label{
-    background-color: bisque;
+    background-color: rgb(250, 192, 121);
     width:50px;
     height: 50px;
     font-size:30px;

@@ -25,12 +25,12 @@ header h4{
 .bar{
     width: 300px;
     height: 50px;
-    border:3px solid bisque;
+    border:3px solid rgb(250, 192, 121);
 }
 .completion{
     width: 0%;
     height: 100%;
-    background-color:bisque ;
+    background-color:rgb(250, 192, 121);
 }
 
 
