@@ -30,3 +30,16 @@ body {
     Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
 }
+
+header input {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--color-text); /* Input text color */
+}
+
+header input::placeholder {
+  color: var(--color-placeholder); /* Placeholder text color */
+  transition: color 0.5s;
+}
