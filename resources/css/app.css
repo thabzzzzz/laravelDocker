@@ -1,19 +1,22 @@
 /* Base styles */
 :root {
   --color-background: white; /* Default light background */
-  --color-text: darkgray; /* Default text color in light mode */
+  --color-text: black; /* Default text color in light mode */
+  --color-placeholder: rgba(60, 60, 60, 0.5); /* Placeholder color in light mode */
 }
 
 /* Dark theme background */
 [data-theme="dark"] {
   --color-background: black; /* Dark background */
   --color-text: white;
+  --color-placeholder: white; /* Placeholder color in dark mode */
 }
 
 /* Light theme background */
 [data-theme="light"] {
   --color-background: white; /* Light background */
-  --color-text: darkgray;
+  --color-text: black;
+  --color-placeholder: rgba(60, 60, 60, 0.5); /* Placeholder color in light mode */
 }
 
 /* Apply background color */

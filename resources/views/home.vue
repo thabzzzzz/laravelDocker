@@ -50,8 +50,8 @@ const toggleTheme = () => {
       <div class="container">
     <header>
       <h1>Quizes</h1>
-      <input v-model.trim="search" type="text" placeholder="Search...">
-      <button @click="toggleTheme">Toggle Theme</button> <!-- Theme toggle button -->
+      <input v-model.trim="search" type="text" placeholder="Search..." name="searchbox">
+      <button @click="toggleTheme" id="modeToggle">Toggle Theme</button> 
     </header>
     
     <div class="options-container">
@@ -119,5 +119,9 @@ const toggleTheme = () => {
 .card-leave-to {
   opacity: 0;
   transform: translateY(-30px);
+}
+
+#modeToggle{
+  margin-left: 20px;
 }
 </style>
