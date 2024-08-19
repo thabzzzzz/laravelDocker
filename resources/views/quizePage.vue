@@ -55,7 +55,7 @@ const onOptionSelected = (isCorrect) => {
 
 <template>
     <div>
-
+        <router-link to="/"> <button id="backButton">Back</button></router-link>
         <quizHeader :questionStatus="questionStatus" :barPercentage="barPercentage" />
         <question v-if="!showResult" :question="quiz.questions[currentQuestionIndex]" @SelectedOption="onOptionSelected" />
         <result v-else :numOfCorrectQuestions="numOfCorrectQuestions" :quizQuestionLength="quiz.questions.length"/>
@@ -65,4 +65,18 @@ const onOptionSelected = (isCorrect) => {
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#backButton {
+    /* Space between the completion bar and the button */
+    background-color: rgb(250, 192, 121);
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+</style>
