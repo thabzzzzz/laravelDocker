@@ -123,5 +123,15 @@ const toggleTheme = () => {
 
 #modeToggle{
   margin-left: 20px;
+  background-color: rgb(250, 192, 121);
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
+
+
 </style>
