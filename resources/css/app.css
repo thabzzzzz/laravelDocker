@@ -1,22 +1,22 @@
 /* Base styles */
 :root {
-  --color-background: white; /* Default light background */
-  --color-text: black; /* Default text color in light mode */
-  --color-placeholder: rgba(60, 60, 60, 0.5); /* Placeholder color in light mode */
+  --color-background: white;
+  --color-text: black; 
+  --color-placeholder: rgba(60, 60, 60, 0.5); 
 }
 
 /* Dark theme background */
 [data-theme="dark"] {
-  --color-background: black; /* Dark background */
+  --color-background: #0e0d0d; 
   --color-text: white;
-  --color-placeholder: white; /* Placeholder color in dark mode */
+  --color-placeholder: white; 
 }
 
 /* Light theme background */
 [data-theme="light"] {
-  --color-background: white; /* Light background */
+  --color-background: white; 
   --color-text: black;
-  --color-placeholder: rgba(60, 60, 60, 0.5); /* Placeholder color in light mode */
+  --color-placeholder: rgba(60, 60, 60, 0.5); 
 }
 
 /* Apply background color */
@@ -36,10 +36,10 @@ header input {
   background-color: rgba(128, 128, 128, 0.1);
   padding: 10px;
   border-radius: 5px;
-  color: var(--color-text); /* Input text color */
+  color: var(--color-text); 
 }
 
 header input::placeholder {
-  color: var(--color-placeholder); /* Placeholder text color */
+  color: var(--color-placeholder); 
   transition: color 0.5s;
 }
