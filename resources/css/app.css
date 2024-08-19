@@ -1,16 +1,19 @@
 /* Base styles */
 :root {
   --color-background: white; /* Default light background */
+  --color-text: darkgray; /* Default text color in light mode */
 }
 
 /* Dark theme background */
 [data-theme="dark"] {
   --color-background: black; /* Dark background */
+  --color-text: white;
 }
 
 /* Light theme background */
 [data-theme="light"] {
   --color-background: white; /* Light background */
+  --color-text: darkgray;
 }
 
 /* Apply background color */
@@ -18,4 +21,9 @@ body {
   min-height: 100vh;
   background: var(--color-background);
   transition: background-color 0.5s;
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
 }
