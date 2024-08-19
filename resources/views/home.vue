@@ -5,7 +5,7 @@ import Card from '../js/components/Card.vue';
 import { RouterView } from 'vue-router';
 import quizePage from '../views/quizePage.vue';
 import gsap from 'gsap';
- 
+
 const quizes = ref(q);
 const search = ref('');
 
@@ -30,6 +30,20 @@ const enter = (el)=>{
 const afterEnter = ()=>{
   console.log('after enter')
 }
+
+const toggleTheme = () => {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  console.log(`Current theme: ${currentTheme}`);  // Log current theme
+
+  if (currentTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    console.log('Switched to light theme');  // Log switch to light
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    console.log('Switched to dark theme');  // Log switch to dark
+  }
+
+};
 </script>
 
 <template>
@@ -37,6 +51,7 @@ const afterEnter = ()=>{
     <header>
       <h1>Quizes</h1>
       <input v-model.trim="search" type="text" placeholder="Search...">
+      <button @click="toggleTheme">Toggle Theme</button> <!-- Theme toggle button -->
     </header>
     
     <div class="options-container">
