@@ -29,6 +29,7 @@ RUN apt-get update \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
+COPY startup.sh /usr/local/bin/startup.sh
 
 # Enable the site
 RUN a2ensite 000-default.conf
@@ -55,4 +56,4 @@ RUN echo '<Directory /var/www/html/public>\n\
   && a2enconf override
 
 # Start Apache in the foreground
-CMD ["apache2-foreground"]
+ENTRYPOINT ["/usr/local/bin/startup.sh"]
