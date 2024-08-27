@@ -39,9 +39,7 @@ COPY . .
 
 
 # Install Laravel and Vue dependencies
-RUN composer install \
-  && npm install \
-  && npm run prod 
+RUN composer install 
 
 # Expose port 80
 EXPOSE 80

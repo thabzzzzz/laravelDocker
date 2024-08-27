@@ -3,8 +3,11 @@
 # Start Apache in the background
 apache2-foreground &
 
-# Wait for the database to be ready
 
+
+# Install npm dependencies and build assets
+npm install
+npm run build
 
 # Run Laravel migrations
 php artisan migrate --force
